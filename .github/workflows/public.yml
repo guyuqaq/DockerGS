@@ -2,14 +2,14 @@ name: DockerGS (Public)
 on:
   push: # auto
     paths:
-      - "gs/ver_GSServer-GCOriginal-4.0"
+      - "gs/ver_GSServer-GC-4.0"
       - ".github/workflows/public.yml"
   workflow_dispatch: # manual
     inputs:
       repo:
         description: "Repo"
         required: true
-        default: "YuukiPS/Grasscutters-Original"
+        default: "YuukiPS/GSServer-GC"
       branches:
         description: "Branches Repo"
         required: true
